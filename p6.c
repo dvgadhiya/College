@@ -44,6 +44,7 @@ void simple_merge(int k[], int First, int Second, int Third)
 	{
 		if (k[i] <= k[j])
 		{
+			l++;
 			temp[l] = k[i];
 			i++;
 		}
